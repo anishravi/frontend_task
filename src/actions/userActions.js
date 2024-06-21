@@ -43,7 +43,7 @@ export const editUser = (id,payload) => async dispatch => {
       dispatch(getUsers());
     } 
   } catch (error) {
-    console.log(e)
+    console.log(error)
   }
 }
 
